@@ -2,12 +2,10 @@
 
 namespace MammutAlex\Transformer;
 
-
 abstract class Transformer implements TransformerInterface
 {
-
     /**
-     * Add all data to restAPI
+     * Add all data to restAPI.
      *
      * @param array $items
      *
@@ -24,7 +22,7 @@ abstract class Transformer implements TransformerInterface
     }
 
     /**
-     * Add item to show inst in restAPI
+     * Add item to show inst in restAPI.
      *
      * @param $app
      *
